@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudio</title>
+</head>
+<body>
+    <!--Os efeitos sonoros tbm tem direito autoral vai em youtube biblioteca de  audio e selecionar atribuição não necessária.Tem que tomar cuidado como tamanho do áudio tbm. A maneira mais simples de colocar um audio é usando a tag audio-->
+
+   <h1>Reproduzir áudio versão 1</h1>
+   <p>Possibilidade 1</p>
+   <audio preload="metadata" controls></audio>
+    <audio src="efeitosonoro.ogg" controls autoplay></audio> 
+    <!--
+         <audio src="efeitosonoro.ogg"></audio> só com a tag audio ele não toca vc tem q add o auto play. Vc pode usar outros formatos de arquivo em áudio pq as vezes o navegador não é 100% compatível.Caso vc coloque auto no preload o site demora mais só que vc pode colocar autoplay. O ideal é metadata.
+    -->
+    <!--A segunda opção para por o audio está abaixo.Vc digita audio dá enter tira o src que está junto do audio e add um source abaixo. Não tenha medo no type vc cata no material em pdf o type para mp3 é o abaixo-->
+    <p>Possibilidade 2</p>
+<audio>
+<source src="efeitosonoro.ogg" type="audio/mpeg">
+</audio>
+
+<p>Caso a reprodução do áudio não seja possível é sinal de que seu navegador não é compatível para baixar o arquivo <a href="efeitosonoro.ogg">clique aqui</a>.</p>
+</body>
+</html>

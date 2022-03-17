@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas-Áudio e Vídeo</title>
+</head>
+<body>
+     <h1>Imagem Dinâmica</h1>
+     <p>Abra esse site em dispositivos diferentes ou simplesmente aumente e diminua seu navegador para ver a mudança</p>
+     <!--Para tanto vamos usar a tag picture que parece imagem(na vdd img) mas permite q vc crie várias fontes(sources) para mesma imagem. O importante é que ou vc começa pela foto g ou pela foto p. Primeiro vc coloca a img dps acima a tag source-media dps troca min-width: ) por max-width: ).
+    Cuidadooo!! a ordem dos source precisa ser respeitada -->
+<picture>
+    <source media="(max-width:750px)" srcset="peq.png" type="image/png" >
+    <source media="(max-width:1050px)" srcset="med.png" type="image/png">
+    <img src="gran.png" alt="imagem flexível">
+<!--Por padrão vai carregar a imagem grande quando tamanho 1000..750-->
+</picture>
+</body>
+</html>

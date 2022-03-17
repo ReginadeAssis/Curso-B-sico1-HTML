@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links e Ancoras</title>
+</head>
+<body>
+ <h1>Usando Links Externos</h1>   
+ <p>É possível acessar o <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf">repositório público do curso em vídeo no Git Hub</a>. </p>
+
+ <br>
+
+ <p>Vc tbm pode acessar um canal gratuito no <a href="ww.youtube.com/c/CursoemVídeo">Youtube</a></p>
+
+ <!--caso vc queira colocar um link para outro site vc pode usar a tag a. Primeiro envelopa o que vc quer q fique clicável e dps põe a tag a. O hf é justamente para onde vai, vc copia a url e põe lá.-->
+
+ Os acima estão sobrepostos, logo a pessoa vai ser redirecionada para outros sites e nunca mais volta para o seu. Observe abaixo como fazer com que uma nova aba seja aberta. Adicionando target e rel vc diz q é um link externo e que o alvo seja em _blank uma janela em branco. 
+<br>
+<br>
+
+ <p>É possível acessar o <a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank" rel="external">repositório público do curso em vídeo no Git Hub</a>. </p>
+
+ <br>
+
+ <p>Vc tbm pode acessar um canal gratuito no <a href="ww.youtube.com/c/CursoemVídeo" target="_blank" rel="external">Youtube</a></p>
+
+<h1>Usando Links internos</h1>
+<p>Ele faz uma ligação com outra página dentro do servidor onde está a página,logo vc precisa de uma pg 2. </p>
+
+<p>A segunda página está aqui. <a href="estruturabasicadosite.html" rel="next">Segunda Página </a>
+
+</p>
+<!--Vc vai usar a mesma tag a só que além disso na parte do href entre aspas vc só clica e aperta control espaço. mas cuidado pq a segunda página tem que estar na mesma pasta como nas imagens. Não existe rel interne vc coloca next quando vai para a segunda página ou prev caso vc esteja na segunda e queira voltar para a primeira. Dessa forma, vc diz para o google que essa é a pg 2 não é o google que decide. 
+Vc pode fazer um rel nofolow para que o mecanismo de busca entenda que aquele site não possui sua aprovação. 
+Caso o link vá para a própria página pode coloccar target como _self-->
+<!--../nome da pasta ele dá as opções para voltar caso vc tenha colocado os sites em pastas diferentes no servidor.-->
+
+
+</body>
+</html>

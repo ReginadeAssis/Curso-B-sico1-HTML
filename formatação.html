@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de Textos</title>
+<style>
+    mark {
+        background-color: aquamarine;
+    }
+</style>
+
+</head>
+<body>
+    <h1>Principais Formatações</h1>
+    <h2>Negrito</h2>
+    <p>Tem a forma semantica e a forma não semantica de colocar uma palavra em negrito </p>
+    <br>
+    <p>Nessa frase temos um termo em negrito usando a tag b não semantica: A <b>lua</b> está linda </p>
+    <br>
+    <p>Assim é de forma semantica tem sentido-vc pode atribuir uma função depois: A <strong>lua</strong> está linda</p>
+    <br>
+    <h2>Itálico ou ênfase</h2>
+    <p>Não semantica:A <i>lua</i> está linda</p>
+    <p>Semantica: Aperta control shifth e p depois vc clica em emmet:envelope com abreviatura. Caso não apareça vc pode digitar sinal de maior e abb/wrap na linha que aparecer. Em seguida, seleciona o termo e aperta o i que ele já envelopa.
+        Mas para fazer esse processo digita primeiro só o que quer em itálico pq ele seleciona a linha td vc só aperta o i e depois o enter. </p>
+
+    <br>
+    <p>
+     A <i>lua</i> está linda. 
+    </p>
+
+    <p>
+        Outra forma é selecionar dps ccontrol shifth p enter em seguida p enter q é na vdd a tag do parágrafo q vc está. Já que o visual code grava a última ação q vc fez.
+    </p>
+   
+    <h2>Marca Texto</h2>
+
+<p>Podemos criar um texto usando a tag MARK. <mark style="background-color: rgb(75, 250, 192);">seleciona o texto aperta control shifth +p clica em envelopar com abreviatura e coloca a tag no caso mark na janela q vai aparecer.</mark> Caso vc queira mudar a cor do marca texto não tem como fazer isso pelo html só pelo css.
+
+<br>
+Para mudar a cor vc coloca a tag style que é css logo dps do mark e dá o comando que está no código. Caso eu queira q tds os mark tenham uma cor que não o amarelo. Vai para head cria tag style, um seletor para mark e a cor q vc quiser.
+
+<mark>A lua está linda</mark>
+</p> 
+
+
+<h2>Textos Grandes e Pequenos</h2>
+<p>A tag small não caiu a tag big sim. caso vc queira aumentar ou diminuir uma fonte use css
+    A <small>lua está linda</small> essa noite.
+</p>
+
+<h2>Texto Deletado-podemos marcar um texto como excluido para indicar que ele deve ser lido mas não considerado</h2>
+<p> É só usar a tag del ai vc envelopa para não ter o trabalho de digitar denovo.
+    <br>
+    <del>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, eius. Sunt consequuntur odit atque! Qui, quia? Cupiditate eius accusantium incidunt est autem, nemo animi natus fuga ratione aliquid ad? Veniam.</del></p>
+
+<h2>Texto Inserido-para indicar que o texto foi incluído posteriormente.</h2>
+<p>Aqui o texto fica sublinhado com tag U (não -semantica) já a ins é semantica tem sentido e permanece. <br>
+     <ins>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat consectetur velit ea consequuntur sit temporibus sed molestias, voluptas alias aut dolorum quo dolore? Impedit iste vel quidem officia pariatur saepe?</p></ins>
+
+     <p><u>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus tempore dignissimos nam quod in? Sapiente, accusamus consectetur veritatis sed, dolores mollitia suscipit adipisci assumenda nobis illo, soluta dolor esse quia?</u></p>
+
+     <h2>Texto Sobrescrito</h2>
+     <p> A lua está linda <sup>2</sup> (ao quadrado). Para tal vc envelopa com a tag sup.</p>
+
+     <h2>Texto Subescrito</h2>
+     <p> A água possui fórmula molecular representada por H<sub>2</sub>O.   Para tal vc envelopa com a tag sub</p>
+
+</body>
+</html>
+

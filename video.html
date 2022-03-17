@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos</title>
+</head>
+<body>
+    <!--No pexels tem imagens e videos, mas baixa com qualidade baixa. Os formatos: mp4 webm e ogv são os mais compatíveis. Caso seu cliente precise colocar um video no site dele vc vai em hand brake é gratuito ai vc pode converter o vídeo fornecido. Mas cuidado acima de 1800p não hospedar no site pq fica mt caro. A tag usada é literalmente vídeo. O width diminui o tamanho do víedo na exibição mas o peso é o mesmo e o controls te dá a opção do play e o poster bota uma capa no video.
+    A ideia é colocar tds os formatos-->
+
+    <h1>Vídeo hospedado no próprio servidor como opção 1</h1>
+    <video src="video.mp4" width="250" poster="capadovideo.png" controls ></video>
+
+    <!--<p>Vídeos em outros formatos</p>
+    <video width = 500 controls>
+      <source src="midia/video.mp4" type="video/mp4">
+     <source src="midia/video.mp4" type="video/mp4">
+      <source src="midia/video.mp4" type="video/mp4">
+    </video> Acima a ordem é importante pq ele vai testar tds antes de dizer q não é compatível-->
+
+    <!--Vc colocaria os diferentes formatos só mudando o arquivo e o type. O type para mdv=video/mp4, webm=video/webm, ogv=video/ogg. Dá para add tamanho controle e capa do lado da tag video-->
+
+    <h1>Vídeos hospedados fora do servidor-com serviços de hospedagem de vídeo</h1>
+
+<!--Clica no vídeo que quer escolhe compartilhar dps incorporar copia no botão copiar. Vai para o html e cola..só isso? sim..  Pode usar o vimeo que é como o youtube e faz o mesmo processo de compartilhar o problema é que pode travar mte tbm tem mais opções-->
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/MyAYLIUDnQ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
